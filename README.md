@@ -1,5 +1,4 @@
 # Weather Dashboard
-
 ![Weather Dashboard](https://github.com/Yushmanth-divi/Weather-Dashboard-using-OpenWeather/blob/main/Screenshot%20(18).png)  <!-- Replace with an actual screenshot of your dashboard -->
 
 ## Overview
@@ -8,12 +7,6 @@ The **Weather Dashboard** is a web application that provides real-time weather i
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-- [Contributing](#contributing)
 
 ## Features
 - **City Search**: Enter a city name to fetch its weather data.
@@ -30,9 +23,3 @@ The **Weather Dashboard** is a web application that provides real-time weather i
 - **API**: 
   - OpenWeather API for fetching weather data
 
-## Installation
-To run the Weather Dashboard locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/weather-dashboard.git
