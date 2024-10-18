@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-![Weather Dashboard]([Screenshot(18).png](https://github.com/Yushmanth-divi/Weather-Dashboard-using-OpenWeather/blob/main/Screenshot%20(18).png))  <!-- Replace with an actual screenshot of your dashboard -->
+![Weather Dashboard](https://github.com/Yushmanth-divi/Weather-Dashboard-using-OpenWeather/blob/main/Screenshot%20(18).png)  <!-- Replace with an actual screenshot of your dashboard -->
 
 ## Overview
 The **Weather Dashboard** is a web application that provides real-time weather information for any city around the world. Users can easily search for a city and retrieve current weather conditions, including temperature, humidity, wind speed, and a 3-day forecast.
