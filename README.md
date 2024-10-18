@@ -4,10 +4,6 @@
 ## Overview
 The **Weather Dashboard** is a web application that provides real-time weather information for any city around the world. Users can easily search for a city and retrieve current weather conditions, including temperature, humidity, wind speed, and a 3-day forecast.
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-
 ## Features
 - **City Search**: Enter a city name to fetch its weather data.
 - **Weather Cards**: Beautifully designed cards display weather information with icons.
