@@ -1,0 +1,156 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://getwallpapers.com/wallpaper/full/f/4/d/1244609-download-peaceful-anime-wallpaper-2560x1440-for-xiaomi.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.weather-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.forecast-item {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 calc(30% - 20px); /* Adjust the width as needed */
+    color: rgb(252, 252, 252); /* Change text color to white for better contrast */
+}
+
+.forecast-item:nth-child(1) {
+    background-color: #952107; /* Red */
+}
+
+.forecast-item:nth-child(2) {
+    background-color: #093446; /* Light Blue */
+}
+
+.forecast-item:nth-child(3) {
+    background-color: #098f28; /* Green */
+}
+
+.forecast-item:nth-child(4) {
+    background-color: #ffcc33; /* Yellow */
+}
+
+.forecast-item:nth-child(5) {
+    background-color: #8e44ad; /* Purple */
+}
+
+.forecast-item:nth-child(6) {
+    background-color: #e67e22; /* Orange */
+}
+
+/* Optional: To ensure all text remains legible */
+.forecast-item h3 {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .weather-card {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .forecast-item {
+        flex: 1 1 calc(45% - 20px); /* Adjust for smaller screens */
+    }
+}
